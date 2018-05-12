@@ -1,0 +1,2 @@
+{:deps {snow {:local/root "../snow"}}
+ :paths ["src"]}
