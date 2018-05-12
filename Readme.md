@@ -8,7 +8,7 @@
 ## Starting nrepl
 
 ```clojure
-user=> (require '[snow.repl :as r] :reload)
+user=> (require '[snow.repl :as r])
 nil
 user=> (r/start-nrepl)
 ```
