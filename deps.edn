@@ -1,3 +1,2 @@
-{:deps {snow {:git/url "https://github.com/entranceplus/snow"
-              :sha "f071f1f5b92f9b32264a6146fcc98cba847b0bb8"}}
+{:deps {re-frame {:mvn/version "0.10.5"}}
  :paths ["src"]}

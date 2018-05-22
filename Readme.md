@@ -5,13 +5,8 @@
 * Install clj tool
 * Run `clj`
 
-## Starting nrepl
+## Reproducing bug
 
-```clojure
-user=> (require '[snow.repl :as r])
-nil
-user=> (r/start-nrepl)
+```shell
+clj -m clj-playground.core
 ```
-
-nrepl server will be started at port 9001 by default.
-You can change it by specifying `:repl-port` in profiles.edn.
